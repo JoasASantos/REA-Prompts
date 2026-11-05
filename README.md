@@ -16,11 +16,11 @@ Prompts are ready to paste into your agent. Replace everything in `<angle bracke
 
 ## Install as agent skills (recommended)
 
-`setup.sh` (macOS/Linux) or `setup.bat` (Windows) copies every prompt section into your coding agent's skills folder (`~/.hermes/skills`, `~/.claude/skills` or `~/.codex/skills`):
+`setup.sh` (macOS/Linux) or `setup.bat` (Windows) copies every prompt section into your coding agent's skills folder (`~/.hermes/skills`, `~/.claude/skills`, `~/.codex/skills`, or `~/.gemini/config/skills` for Antigravity):
 
 ```bash
-./setup.sh          # auto-detect installed agents
-./setup.sh hermes   # or: claude-code | codex | all
+./setup.sh              # auto-detect installed agents
+./setup.sh antigravity  # or: hermes | claude-code | codex | antigravity | all
 ```
 
 ```bat
